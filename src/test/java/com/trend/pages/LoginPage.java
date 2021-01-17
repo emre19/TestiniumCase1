@@ -1,12 +1,10 @@
 package com.trend.pages;
 
-
+import com.trend.commonfunctions.CommonMethods;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-public class LoginPage {
+public class LoginPage extends CommonMethods {
 
     WebDriver driver;
 
@@ -14,28 +12,14 @@ public class LoginPage {
         this.driver = driver;
     }
 
-    @FindBy(name = "login email")
-    WebElement uname;
-
-    @FindBy(name = "login-password")
-    WebElement pass;
-
-    @FindBy(xpath = "//button[@type='submit']")
-    WebElement loginButton;
-
-    @FindBy(xpath = "//div[@title='Kapat']")
-    WebElement popup2;
-
-    public void loginToTrend(String usernameApplication, String passwordApplication){
-
-        uname.sendKeys(usernameApplication);
-        pass.sendKeys(passwordApplication);
-        loginButton.click();
-
+    public void loginToTrend(String usernameApplication, String passwordApplication) throws InterruptedException {
+        Sendkeys(driver,"id",uname,usernameApplication);
+        Sendkeys(driver,"id",pass,passwordApplication);
+        clickButton(driver,"css selector",loginButton);
     }
 
-    public void loginSuccessControl(){
-        popup2.click();
+    public void loginSuccessControl() throws InterruptedException {
+        clickButton(driver,"id",popup2);
         String title = driver.getTitle();
         Assert.assertEquals(title,"Erkek Giyim, Erkek Kıyafetleri, Erkek Modası | Trendyol");
     }

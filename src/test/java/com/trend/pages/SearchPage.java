@@ -1,16 +1,14 @@
 package com.trend.pages;
 
-import org.openqa.selenium.Keys;
+import com.trend.commonfunctions.CommonMethods;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
 
-public class SearchPage {
+public class SearchPage extends CommonMethods {
 
     WebDriver driver;
 
@@ -18,31 +16,19 @@ public class SearchPage {
     public static String pPrice;
 
     public SearchPage(WebDriver driver){
-        driver = this.driver;
+        this.driver = driver;
     }
 
-    @FindBy(xpath = "//input[@type='text']")
-    WebElement searchInput;
-
-    @FindBy(xpath = "//img[@alt='Samsung Galaxy Tab A 8 SM-T290 32GB Tablet Gümüş']")
-    WebElement selectedProduct;
-
-    @FindBy(className = "ph-gl-img") // pr-new-br
-    WebElement productName;
-
-    @FindBy(className = "prc-slg")
-    WebElement productPrice;
-
-    public void searchComputer(String key){
-        searchInput.sendKeys(key);
-        searchInput.sendKeys(Keys.ENTER);
-        selectedProduct.click();
+    public void searchComputer(String key) throws InterruptedException {
+        Sendkeys(driver,"css selector",searchInput,key);
+        keyEnter(driver,"css selector", searchInput);
+        scroll(driver,"css selector",selectedProduct);
+        clickButton(driver,"css selector", selectedProduct);
     }
 
     public void writeProductText(){
-
-        pName = productName.getAttribute("alt");
-        pPrice = productPrice.getText();
+        pPrice = getText(driver,"xpath",productPrice);
+        pName = getText(driver,"xpath",productName);
 
         File file = new File("./TestData/productText.txt");
         try(BufferedWriter br = new BufferedWriter(new FileWriter(file))){
@@ -54,7 +40,6 @@ public class SearchPage {
         } catch (IOException e) {
             System.out.println("Unable to read file " +file.toString());
         }
-
     }
 }
 

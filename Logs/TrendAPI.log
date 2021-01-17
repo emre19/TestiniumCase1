@@ -1,0 +1,100 @@
+2021-01-16 13:35:03 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-16 13:35:05 INFO  EmployeesRestAPI:16 - LoginPage login
+2021-01-16 13:35:06 INFO  EmployeesRestAPI:18 - LoginPage login success control
+2021-01-16 13:35:09 INFO  EmployeesRestAPI:22 - SearchPage Bilgisayarlar search
+2021-01-16 13:35:19 INFO  EmployeesRestAPI:24 - SearchPage write product text
+2021-01-16 13:35:20 INFO  EmployeesRestAPI:28 - BasketPage add product
+2021-01-16 13:35:24 INFO  EmployeesRestAPI:30 - BasketPage product price compare
+2021-01-16 13:35:31 INFO  EmployeesRestAPI:32 - BasketPage product from 1 to 2
+2021-01-16 13:35:34 INFO  EmployeesRestAPI:34 - BasketPage product delete
+2021-01-17 15:18:48 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-17 15:18:52 INFO  EmployeesRestAPI:16 - LoginPage login
+2021-01-17 15:18:52 INFO  EmployeesRestAPI:18 - LoginPage login success control
+2021-01-17 15:18:55 INFO  EmployeesRestAPI:22 - SearchPage Bilgisayarlar search
+2021-01-17 15:19:07 INFO  EmployeesRestAPI:24 - SearchPage write product text
+2021-01-17 15:19:07 INFO  EmployeesRestAPI:28 - BasketPage add product
+2021-01-17 15:19:12 INFO  EmployeesRestAPI:30 - BasketPage product price compare
+2021-01-17 15:19:18 INFO  EmployeesRestAPI:32 - BasketPage product from 1 to 2
+2021-01-17 15:19:21 INFO  EmployeesRestAPI:34 - BasketPage product delete
+2021-01-17 15:41:31 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-17 15:55:33 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-17 15:55:36 INFO  EmployeesRestAPI:16 - LoginPage login
+2021-01-17 15:55:36 INFO  EmployeesRestAPI:18 - LoginPage login success control
+2021-01-17 16:13:30 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-17 16:13:32 INFO  EmployeesRestAPI:16 - LoginPage login
+2021-01-17 16:13:33 INFO  EmployeesRestAPI:18 - LoginPage login success control
+2021-01-17 16:13:36 INFO  EmployeesRestAPI:22 - SearchPage Bilgisayar search
+2021-01-17 16:34:16 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-17 16:34:19 INFO  EmployeesRestAPI:16 - LoginPage login
+2021-01-17 16:34:19 INFO  EmployeesRestAPI:18 - LoginPage login success control
+2021-01-17 16:34:28 INFO  EmployeesRestAPI:22 - SearchPage Bilgisayar search
+2021-01-17 17:02:29 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-17 17:02:32 INFO  EmployeesRestAPI:16 - LoginPage login
+2021-01-17 17:02:33 INFO  EmployeesRestAPI:18 - LoginPage login success control
+2021-01-17 17:02:36 INFO  EmployeesRestAPI:22 - SearchPage Bilgisayar search
+2021-01-17 17:02:46 INFO  EmployeesRestAPI:24 - SearchPage write product text
+2021-01-17 17:26:32 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-17 17:26:34 INFO  EmployeesRestAPI:16 - LoginPage login
+2021-01-17 17:26:35 INFO  EmployeesRestAPI:18 - LoginPage login success control
+2021-01-17 17:26:38 INFO  EmployeesRestAPI:22 - SearchPage Bilgisayar search
+2021-01-17 17:26:49 INFO  EmployeesRestAPI:24 - SearchPage write product text
+2021-01-17 17:42:45 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-17 17:42:48 INFO  EmployeesRestAPI:16 - LoginPage login
+2021-01-17 17:42:48 INFO  EmployeesRestAPI:18 - LoginPage login success control
+2021-01-17 17:42:51 INFO  EmployeesRestAPI:22 - SearchPage Bilgisayar search
+2021-01-17 17:43:02 INFO  EmployeesRestAPI:24 - SearchPage write product text
+2021-01-17 17:43:03 INFO  EmployeesRestAPI:29 - BasketPage add product
+2021-01-17 17:43:07 INFO  EmployeesRestAPI:31 - BasketPage product price compare
+2021-01-17 18:05:00 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-17 18:05:03 INFO  EmployeesRestAPI:16 - LoginPage login
+2021-01-17 18:05:04 INFO  EmployeesRestAPI:18 - LoginPage login success control
+2021-01-17 18:05:06 INFO  EmployeesRestAPI:22 - SearchPage Bilgisayar search
+2021-01-17 18:05:18 INFO  EmployeesRestAPI:24 - SearchPage write product text
+2021-01-17 18:05:19 INFO  EmployeesRestAPI:29 - BasketPage add product
+2021-01-17 18:05:23 INFO  EmployeesRestAPI:31 - BasketPage product price compare
+2021-01-17 18:05:29 INFO  EmployeesRestAPI:34 - BasketPage product from 1 to 2
+2021-01-17 18:11:20 INFO  EmployeesRestAPI:12 - HomePage title control
+2021-01-17 18:11:23 INFO  EmployeesRestAPI:16 - LoginPage login
+2021-01-17 18:11:23 INFO  EmployeesRestAPI:18 - LoginPage login success control
+2021-01-17 18:11:26 INFO  EmployeesRestAPI:22 - SearchPage Bilgisayar search
+2021-01-17 18:11:37 INFO  EmployeesRestAPI:24 - SearchPage write product text
+2021-01-17 18:11:37 INFO  EmployeesRestAPI:29 - BasketPage add product
+2021-01-17 18:11:42 INFO  EmployeesRestAPI:31 - BasketPage product price compare
+2021-01-17 18:11:49 INFO  EmployeesRestAPI:34 - BasketPage product from 1 to 2
+2021-01-17 18:11:52 INFO  EmployeesRestAPI:36 - BasketPage product delete
+2021-01-17 18:38:19 INFO  Trend API:12 - HomePage title control
+2021-01-17 18:38:23 INFO  Trend API:16 - LoginPage login
+2021-01-17 18:38:23 INFO  Trend API:18 - LoginPage login success control
+2021-01-17 18:38:26 INFO  Trend API:22 - SearchPage Bilgisayar search
+2021-01-17 18:38:37 INFO  Trend API:24 - SearchPage write product text
+2021-01-17 18:38:38 INFO  Trend API:29 - BasketPage add product
+2021-01-17 18:38:42 INFO  Trend API:31 - BasketPage product price compare
+2021-01-17 18:38:48 INFO  Trend API:34 - BasketPage product from 1 to 2
+2021-01-17 18:38:52 INFO  Trend API:36 - BasketPage product delete
+2021-01-17 18:39:20 INFO  Trend API:12 - HomePage title control
+2021-01-17 18:39:22 INFO  Trend API:16 - LoginPage login
+2021-01-17 18:39:23 INFO  Trend API:18 - LoginPage login success control
+2021-01-17 18:39:26 INFO  Trend API:22 - SearchPage Bilgisayar search
+2021-01-17 18:39:38 INFO  Trend API:24 - SearchPage write product text
+2021-01-17 18:39:38 INFO  Trend API:29 - BasketPage add product
+2021-01-17 18:39:42 INFO  Trend API:31 - BasketPage product price compare
+2021-01-17 18:39:49 INFO  Trend API:34 - BasketPage product from 1 to 2
+2021-01-17 18:39:52 INFO  Trend API:36 - BasketPage product delete
+2021-01-17 20:41:01 INFO  Trend API:12 - HomePage title control
+2021-01-17 20:41:03 INFO  Trend API:16 - LoginPage login
+2021-01-17 20:41:04 INFO  Trend API:18 - LoginPage login success control
+2021-01-17 20:41:09 INFO  Trend API:22 - SearchPage Bilgisayar search
+2021-01-17 20:41:17 INFO  Trend API:24 - SearchPage write product text
+2021-01-17 20:41:17 INFO  Trend API:29 - BasketPage add product
+2021-01-17 20:41:22 INFO  Trend API:31 - BasketPage product price compare
+2021-01-17 20:41:29 INFO  Trend API:34 - BasketPage product from 1 to 2
+2021-01-17 20:41:32 INFO  Trend API:36 - BasketPage product delete
+2021-01-17 20:44:05 INFO  Trend API:12 - HomePage title control
+2021-01-17 20:44:10 INFO  Trend API:16 - LoginPage login
+2021-01-17 20:44:10 INFO  Trend API:18 - LoginPage login success control
+2021-01-17 20:44:14 INFO  Trend API:22 - SearchPage Bilgisayar search
+2021-01-17 20:44:24 INFO  Trend API:24 - SearchPage write product text
+2021-01-17 20:44:24 INFO  Trend API:29 - BasketPage add product
+2021-01-17 20:44:29 INFO  Trend API:31 - BasketPage product price compare
+2021-01-17 20:44:36 INFO  Trend API:34 - BasketPage product from 1 to 2
+2021-01-17 20:44:39 INFO  Trend API:36 - BasketPage product delete
